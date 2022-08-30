@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EPIC Bioscience</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+</head>
+<body style="background-image: url(Content/background.png); background-repeat: no-repeat; background-attachment: fixed; background-size: 100%">
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="/About.html" class="w3-button w3-block">About</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/Projects.html" class="w3-button w3-block">Projects</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/Team.html" class="w3-button w3-block">Team</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/Publications.html" class="w3-button w3-block">Publications</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><img src="/Content/Logo2.png" style="width:25%"></h1>
+    
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="/Content/Skin.png" style="width:100%">
+     <div class="w3-display-topright w3-container w3-padding-32">
+        
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="/Content/Va2.png" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./Content/Comics.png" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+       
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-black w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64" style="color: white">
+        <span class="w3-xlarge w3-bottombar w3-border-white w3-padding-16"><h2>EPIC Bioscience Goals</h2></span>
+    </div>
+    <div class="w3-col l3 m6 w3-container w3-padding-16" style="background-color:#D25C1C;color: white">
+      <h3>Collections Based...</h3>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-container w3-padding-16" style="background-color:#808184 ;color: white">
+      <h3>Data Collection...</h3>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-container w3-padding-16" style="background-color:#020000 ;color: white">
+      <h3>Data Analysis...</h3>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-container w3-padding-16" style="background-color:#C31230 ;color: white">
+      <h3>Lorem...</h3>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans" style="color: white;">
+    <div class="w3-center" style="padding-top: 200px; padding-bottom: 50px">
+      <h2>Current Projects</h2>
+      <p>Select one of our ongoing projects to learn more.</p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class=" w3-xlarge w3-padding-32" style="background-color:#D25C1C">Velvet Ants</li>
+        
+        <li class="w3-padding-16">
+          <h3>Lorem</h3>
+          <span class="w3-opacity">Description</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+           <a href="/Velvet.html" class="w3-button w3-black w3-padding-large">Learn More</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-xlarge w3-padding-32" style="background-color:#808184">Bats</li>
+          
+        <li class="w3-padding-16">
+          <h3>Lorem...</h3>
+          <span class="w3-opacity">Description</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Learn More</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class=" w3-xlarge w3-padding-32" style="background-color:#C31230">Fungi</li>
+
+        <li class="w3-padding-16">
+          <h3>Lorem...</h3>
+          <span class="w3-opacity">Description</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Learn More</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  
+
+<!-- Footer -->
+
+<footer class="w3-container w3-center" style="color: white; padding-top: 100px">
+ 
+  <a href="/index.html" class="w3-button w3-black w3-margin">Home</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p><a href="https://researchquest.org/" title="Research Quest" target="_blank" class="w3-hover-text-green">Research Quest Image Link Placeholder</a></p>
+    <p><a href="https://nhmu.utah.edu/" title="NHMU" target="_blank" class="w3-hover-text-green">NHMU Image Link Placeholder</a></p>
+    <p><a href="https://ed-psych.utah.edu/" title="EDPS" target="_blank" class="w3-hover-text-green">University of Utah Image Link Placeholder</a></p>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
